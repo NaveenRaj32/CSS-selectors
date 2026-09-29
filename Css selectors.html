@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question 1</title>
+    <style>
+        div p {
+            color: red;
+        }
+        
+        div > p {
+            color: blue;
+        } 
+        h2 + p {
+            color: green;
+        }
+        h2 ~ p {
+            color: orange;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div> 
+    <p>Paragraph 1</p> 
+    <section> 
+        <p>Paragraph 2</p> 
+    </section> 
+    </div> 
+ 
+    <p>Paragraph 3</p>
+
+
+
+//2. Only Paragraph 1 → Blue
+    <div> 
+    <p>Paragraph 1</p> 
+    <section> 
+        <p>Paragraph 2</p> 
+    </section> 
+    </div> 
+
+
+
+    <h2>Student Details</h2> 
+    <p>Name: Arun</p> 
+    <p>Age: 22</p>
+
+
+    <h2>Student Details</h2> 
+    <p>Name: Arun</p> 
+    <p>Age: 22</p> 
+    <p>City: Chennai</p>
+
+</body>
+</html>
+
+
